@@ -1,0 +1,331 @@
+<html class="gr__filebox_ece_vt_edu"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+	<style>
+	body {
+		background:white;
+		color: #222222;
+		padding: 0;
+		margin: 0;
+		font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+		font-weight: normal;
+		font-style: normal;
+		line-height: 1.4;
+   }
+	a:link {
+		text-decoration: none;
+	}
+	a:visited {
+		text-decoration: none;
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+	a:active {
+		text-decoration: underline;
+	}
+	p{
+		font-size:1.2em;
+	}
+	img {
+		width:100%;
+		max-width: 300px;
+	}
+	.rcorner{
+		border-radius: 25px;
+		border: 2px solid #8AC007;
+		padding: 20px;
+	}
+	div{
+		max-width:1200px;
+		position:relative;
+		font-family:Arial;
+	}
+	.bold{font-weight: bold;}
+	.italic{font-style: italic;}
+	.sz25{font-size:2.5em;}
+	.sz20{font-size:2.0em;}
+	.sz15{font-size:1.5em;}
+	.sz13{font-size:1.3em;}
+	.sz12{font-size:1.2em;}
+	.sz10{font-size:1.0em;}
+	.sz08{font-size:0.8em;}
+	.inline{display:inline-block;}
+	.no_margin{
+		margin: 0 0;
+	}
+	.padding20{
+		padding: 20px;
+	}
+	.halign{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.block_2
+	{
+		width:49%;
+		max-width: 512px;
+		display: inline-block;
+		position: relative;
+	}
+	.block_5_2
+	{
+		width:40%;
+		max-width: 410px;
+		display: inline-block;
+		position: relative;
+	}
+	.block_3
+	{
+		width:33%;
+		max_width: 341px;
+		display: inline-block;
+		position: relative;
+	}
+	.block_1
+	{
+		width:100%;
+		display: inline-block;
+		/*position: relative;*/
+		margin: 5px 5px;
+		text-align: justify;
+
+	}
+	.block_N
+	{
+		display: inline-block;
+		position: relative;
+	}
+	.block_6
+	{
+		width:16%;
+		display: inline-block;
+		position: relative;
+
+	}
+
+	img.header-img {
+		height: 140px;
+		border: 1px solid black;
+		border-radius: 10px ;
+		-moz-border-radius: 10px ;
+		-webkit-border-radius: 10px ;
+	}
+
+	img.rounded {
+		border: 0px solid #eeeeee;
+		border-radius: 10px ;
+		-moz-border-radius: 10px ;
+		-webkit-border-radius: 10px ;
+	}
+
+	.layered-paper-big { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+		box-shadow:
+		        0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+		        5px 5px 0 0px #fff, /* The second layer */
+		        5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+		        10px 10px 0 0px #fff, /* The third layer */
+		        10px 10px 1px 1px rgba(0,0,0,0.35), /* The third layer shadow */
+		        15px 15px 0 0px #fff, /* The fourth layer */
+		        15px 15px 1px 1px rgba(0,0,0,0.35), /* The fourth layer shadow */
+		        20px 20px 0 0px #fff, /* The fifth layer */
+		        20px 20px 1px 1px rgba(0,0,0,0.35), /* The fifth layer shadow */
+		        25px 25px 0 0px #fff, /* The fifth layer */
+		        25px 25px 1px 1px rgba(0,0,0,0.35); /* The fifth layer shadow */
+		margin-left: 10px;
+		margin-right: 45px;
+	}
+
+	.paper-big { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+		box-shadow:
+		        0px 0px 1px 1px rgba(0,0,0,0.35); /* The top layer shadow */
+
+		margin-left: 10px;
+		margin-right: 45px;
+	}
+
+
+	.layered-paper { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+		box-shadow:
+		        0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+		        5px 5px 0 0px #fff, /* The second layer */
+		        5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+		        10px 10px 0 0px #fff, /* The third layer */
+		        10px 10px 1px 1px rgba(0,0,0,0.35); /* The third layer shadow */
+		margin-top: 5px;
+		margin-left: 10px;
+		margin-right: 30px;
+		margin-bottom: 5px;
+	}
+
+	.vert-cent {
+		position: relative;
+	    top: 50%;
+	    transform: translateY(-50%);
+	}
+
+	.block_6_5
+	{
+		width:83%;
+		display: inline-block;
+		position: relative;
+	}
+	</style>
+	<title>
+		Scattering Vision Transformer: Spectral Mixing Matters
+	</title>
+
+
+</head>
+<body data-gr-c-s-loaded="true">
+
+<div class="halign">
+	<div style="float: left; width: 15%; padding: 1%;"><a target="_blank" href="https://www.bath.ac.uk/"><img src="https://badripatro.github.io/svt/images/bath.jpg" height="100" width= "150" alt="sherlock"/></a></div>
+	<div style="float: left; width: 65%;">
+	<div class="block_1">
+
+		<div class="block_1">
+			<p class="sz20 bold no_margin" align="center">Scattering Vision Transformer: Spectral Mixing Matters</p>
+			<p align="center">
+			</p><p class="no_margin" align="center"> <a href="https://badripatro.github.io/">Badri N. Patro</a>, <a href="https://in.linkedin.com/in/vijaysrinivasagneeswaran">Vijay Srinivas Agneeswaran</a></p>
+           		 <p  class="no_margin" align="center"><a href="http://microsoft.com/">Microsoft</a></p>
+				<p class="sz12 bold" align="center"></a> <a href="https://arxiv.org/abs/2304.06446">[ArXiv]</a> <a href="https://github.com/badripatro/svt"> [Code]</a> 
+
+			<p align="center">
+			</p>
+		</div>
+	</div>
+</div>
+<div style="float: left; width: 15%; padding: 1%;"><a target="_blank" href="http://microsoft.com/"><img src="https://badripatro.github.io/svt/images/microsoft.png" height="90" width= "150" alt="sherlock"/></a></div>
+
+
+	<div class="block_1">
+		<div class="">
+			<p class="sz15 bold">Abstract</p>
+				<div class="padding20" style="float:right ">
+					<img style="max-width:601px" src="https://badripatro.github.io/svt/images/SpectFormer.png">
+                              
+				</div>
+				<p class="sz12">
+					Vision transformers have gained significant attention and achieved state-of-the-art performance in various computer vision tasks, including image classification, instance segmentation, and object detection. However, challenges remain in addressing attention complexity and effectively capturing fine-grained information within images. Existing solutions often resort to down-sampling operations, such as pooling, to reduce computational cost. Unfortunately, such operations are non-invertible and can result in information loss. In this paper, we present a novel approach called Scattering Vision Transformer (SVT) to tackle these challenges. SVT incorporates a spectrally scattering network that enables the capture of intricate image details. SVT overcomes the invertibility issue associated with down-sampling operations by separating low-frequency and high-frequency components. Furthermore, SVT introduces a unique spectral gating network utilizing Einstein multiplication for token and channel mixing, effectively reducing complexity. 
+					We show that SVT achieves state-of-the-art performance on the ImageNet dataset with a significant reduction in a number of parameters and FLOPS. SVT shows 2\% improvement over LiTv2 and iFormer. SVT-H-S reaches 84.2\% top-1 accuracy, while SVT-H-B reaches 85.2\% (state-of-art for base versions) and SVT-H-L reaches 85.7\% (again state-of-art for large versions). SVT also shows comparable results in other vision tasks such as instance segmentation. SVT also outperforms other transformers in transfer learning on standard datasets such as CIFAR10, CIFAR100, Oxford Flowers, and Stanford Cars datasets.
+				
+				</p>
+			 		
+		</div>
+	</div>
+
+
+	<div class="block_1" id="code">
+			<div class="">
+				<p class="sz15 bold">SVT Main Diagram</p>
+			</div>
+			<div style="text-align: center;">
+           
+                    <img style="max-width:75%;" src="https://badripatro.github.io/svt/images/SpectFormer_main.png">
+           
+            </div>
+	</div>
+
+		<div class="block_1" id="Results1">
+			<div class="">
+				<p class="sz15 bold">SpectForer Performance Plots  </p>
+			</div>
+			<div style="text-align: center;">           
+             	<img style="max-width:75%;" src="https://badripatro.github.io/svt/images/gflops.png">
+		<img style="max-width:75%;" src="https://badripatro.github.io/svt/images/params.png">          
+
+            </div>
+	</div>
+	
+	<div class="block_1" id="Results2">
+			<div class="">
+				<p class="sz15 bold">Results on the ImageNet1K dataset for image size 224 x 224 </p>
+			</div>
+			<div style="text-align: center;">           
+             	<img style="max-width:75%;" src="https://badripatro.github.io/svt/images/result_sota.png">
+            </div>
+	</div>
+	
+<div class="block_1" id="code">
+			<div class="">
+				<p class="sz15 bold">Filter Visualization</p>
+			</div>
+			<div style="text-align: center;">
+           
+             	<img style="max-width:75%;" src="https://badripatro.github.io/svt/images/GFNet_filter.jpg">
+		<img style="max-width:75%;" src="https://badripatro.github.io/svt/images/SpectFormer_filter.jpg">          
+
+            </div>
+	</div>
+
+
+	<div class="block_1" id="Results2">
+		<div class="">
+			<p class="sz15 bold">Inference Results</p>
+		</div>
+			<div style="text-align: center;">           
+             	<img style="max-width:75%;" src="https://badripatro.github.io/svt/images/inference.png">
+            </div>
+	</div>
+
+<div class="block_1" id="code">
+			<div class="">
+				<p class="sz15 bold">Paper</p>
+			</div>
+			
+          	<center> 
+          	 <table width="700px">
+          	 <tbody align="center"><tr>
+				  <td><a target="_blank" href="https://arxiv.org/pdf/2304.06446"><img class="layered-paper-big" style="height:150px" src="https://badripatro.github.io/svt/images/page_1.png"></a></td>
+				  <td><span style="font-size:12pt; margin-left: 30px;">Badri N. Patro, Vinay. P. Namboodiri and Vijay Srinivas Agneeswaran<br>
+				  <b><span style="font-size:12pt; margin-left: 40px;">SpectFormer: Frequency and Attention is what you need in a Vision Transformer</span></b><br>
+				  </span>
+				  </td>
+  	              
+              </tr>
+  		  </tbody>
+  		  </table>	
+          </center>
+          
+	</div>
+
+
+
+	<div class="block_1" id="Bibtex">
+			<div class="">
+							<p class="sz15 bold">BibTex</p>
+							<p style="font-family: Comic Sans MS; font-size: 14px;">@article{patro2023spectformer,<br>
+							author = {Patro, Badri N.  and Agneeswaran, Vijay Srinivas},<br>
+							title = {SpectFormer: Frequency and Attention is what you need in a Vision Transformer},<br>
+							journal={arXiv preprint arXiv:2304.06446},<br>
+						        year = {2023}<br>
+							}<br>
+						    </p>
+			</div>
+	</div>
+
+
+</div>
+
+<!-- Start Google analytic code  -->	
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142979632-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-142979632-1');
+</script>
+<!-- End Google analytic code  -->	
+	
+
+<h2></h2>
+<p><font color="blue"> *There are no ordinary moments - Dan Millman.</font><br>
+</p>
+
+<script type="text/javascript">
+
+</script>
+
+</body></html>
