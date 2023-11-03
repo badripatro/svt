@@ -15,7 +15,9 @@ Vision transformers have gained significant attention and achieved state-of-the-
 
 ![Main Model](images/SVT_main.png)
 
+## SOTA on the ImageNet-1K dataset for image size 224 x 224
 
+![SOTA](images/svt_sota.PNG)
 
 ## Requirement:
 
