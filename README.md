@@ -1,9 +1,9 @@
-# Scattering Vision Transformer: Spectral Mixing Matters
+# Scattering Vision Transformer: Spectral Mixing Matters -NeurIPS 2023
 
 ![Intro](images/ebm.png)
 
 
-[![Paper](http://img.shields.io/badge/Paper-arxiv.2311.01310-B31B1B.svg)](https://arxiv.org/abs/2311.01310)
+[![NeurIPS 2023 Paper](http://img.shields.io/badge/NeruIPS2023%20Paper-arxiv.2311.01310-B31B1B.svg)](https://arxiv.org/abs/2311.01310)
 [![Project Page](https://img.shields.io/badge/Project%20Page-svt-B31B1B.svg)](https://badripatro.github.io/svt/)
 
 
