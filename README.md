@@ -5,13 +5,10 @@
 
 [![NeurIPS 2023 Paper](http://img.shields.io/badge/NeruIPS2023%20Paper-arxiv.2311.01310-B31B1B.svg)](https://arxiv.org/abs/2311.01310)
 [![Project Page](https://img.shields.io/badge/Project%20Page-svt-B31B1B.svg)](https://badripatro.github.io/svt/)
-
+[![NeurIPS PPT](https://img.shields.io/badge/PPT%20NeurIPS-svt-B31B1B.svg)](https://badripatro.github.io/svt/images/NeurIPS_2023_Poster_SVT.pdf)
 ## Poster
 ![Poster](images/NeurIPS_2023_poster_SVT.png)
 
-
-## PPT
-![PPT](images/NeurIPS_2023_Poster_SVT.pdf)
 
 ## Abstract
 
