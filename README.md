@@ -19,7 +19,7 @@ Vision transformers have gained significant attention and achieved state-of-the-
 
 ![Main Model](images/SVT_main.png)
 
-## SOTA on the ImageNet-1K dataset for image size 224 x 224
+## SOTA Performance on the ImageNet-1K dataset for image size 224 x 224 for  Image Recognition Task
 
 ![SOTA](images/svt_sota.PNG)
 
@@ -35,6 +35,40 @@ Vision transformers have gained significant attention and achieved state-of-the-
 * apex-amp
 * DTCWT [pytorch_wavelets](https://github.com/fbcotter/pytorch_wavelets)
 ```
+
+
+## Data preparation
+
+Download and extract ImageNet images from http://image-net.org/. The directory structure should be
+
+```
+
+│ILSVRC2012/
+├──train/
+│  ├── n01440764
+│  │   ├── n01440764_10026.JPEG
+│  │   ├── n01440764_10027.JPEG
+│  │   ├── ......
+│  ├── ......
+├──val/
+│  ├── n01440764
+│  │   ├── ILSVRC2012_val_00000293.JPEG
+│  │   ├── ILSVRC2012_val_00002138.JPEG
+│  │   ├── ......
+│  ├── ......
+
+```
+
+
+### Model Zoo
+
+We provide baseline SVT Hierarchical models pre-trained on ImageNet1k 2012, using the distilled version of our method:
+
+| name | resolution | #params | FLOPs | Top-1 Acc. | Top-5 Acc. |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| SVT-H-S | 224 | 22.0M | 3.9 | 84.2  | 96.9 |
+| SVT-H-B | 224 | 32.8M | 6.3 |  85.2 | 97.3 |
+| SVT-H-L | 224 | 54.0M | 12.7 | 85.7 | 97.5 | 
 
 
 ## Train SVT small model
@@ -80,10 +114,10 @@ python3 -m torch.distributed.launch \
 ## Citation
 
 ```
-@article{patro2023svt,
+@inproceedings{patro2023svt,
   title={Scattering Vision Transformer: Spectral Mixing Matters},
   author={Patro, Badri N. and Agneeswaran, Vijay Srinivas},
-  journal={arXiv preprint arXiv:2311.01310},
+  journal={Advances in Neural Information Processing Systems (NeurIPS)},
   year = {2023}
 }
 ```
