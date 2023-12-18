@@ -37,7 +37,7 @@ Vision transformers have gained significant attention and achieved state-of-the-
 ```
 
 
-## Data preparation
+## Data Preparation
 
 Download and extract ImageNet images from http://image-net.org/. The directory structure should be
 
@@ -112,6 +112,8 @@ python3 -m torch.distributed.launch \
 ```
 
 ## Citation
+
+If you find our work useful in your research, please consider citing us.
 
 ```
 @inproceedings{patro2023svt,
